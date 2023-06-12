@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -24,10 +25,13 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "happy-dom": "^9.20.3",
+    "jsdom": "^22.1.0",
     "prettier": "2.8.8",
     "prettier-plugin-packagejson": "^2.4.3",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vite-tsconfig-paths": "^4.2.0",
+    "vitest": "^0.32.2"
   }
 }
