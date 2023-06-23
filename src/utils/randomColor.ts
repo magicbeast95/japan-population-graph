@@ -1,0 +1,1 @@
+export const randomColor = () => `hsl(${Math.random() * (360 + 1)}, 50%, 50%)`
